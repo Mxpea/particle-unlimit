@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.mxpea.particleunlimit.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"particleLimit"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
