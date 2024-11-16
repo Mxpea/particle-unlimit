@@ -10,6 +10,6 @@ public class particleLimit {
     //
     @ModifyArg(method = {"method_18125"}, at = @At(value = "INVOKE", target = "com.google.common.collect.EvictingQueue.create(I)Lcom/google/common/collect/EvictingQueue;", remap = false))
     private static int modifyArgTick(int maxParticleCount) {
-        return 999999999;
+        return 9999999;
     }
 }
